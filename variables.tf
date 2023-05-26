@@ -1,5 +1,5 @@
 variable "instance_size" {
-  description = "Size of the EC2 instance used to run the SDC). Allowed values: \"r5a.xlarge\", \"r5a.2xlarge\", \"r5a.4xlarge\", \"r5a.8xlarge\", \"r5a.12xlarge\". We recommend using r5a.xlarge (the default)."
+  description = "Size of the EC2 instance used to run the SDC). We recommend using t2.medium (the default)."
   type        = string
   default     = "t2.medium"
 }
